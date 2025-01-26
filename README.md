@@ -61,7 +61,7 @@ dotnet run --project Infinit.Assessment.Api
        "r": 163042,
        "n": 140384,
        "s": 139006,
-       ...
+       . . .
      }
      ```
 
@@ -78,19 +78,19 @@ dotnet run --project Infinit.Assessment.Api
    - **Response**:
      ```json
      [
-	{
-            "path": ".markdown-doctest-setup.js",
-            "type": "blob",
-            "size": 218,
-            "url": "https://api.github.com/repos/lodash/lodash/git/blobs/cdb0bbb5c7f42d4fcf7338db60d5891de11cf78d"
-	},
-	{
-            "path": "dist/lodash.core.js",
-            "type": "blob",
-            "size": 115957,
-            "url": "https://api.github.com/repos/lodash/lodash/git/blobs/be1d567d629fdfda05efcaa6adfb480d93702889"
-	},
-	...
+       {
+         "path": ".markdown-doctest-setup.js",
+         "type": "blob",
+         "size": 218,
+         "url": "https://api.github.com/repos/lodash/lodash/git/blobs/cdb0bbb5c7f42d4fcf7338db60d5891de11cf78d"
+       },
+       {
+         "path": "dist/lodash.core.js",
+         "type": "blob",
+         "size": 115957,
+         "url": "https://api.github.com/repos/lodash/lodash/git/blobs/be1d567d629fdfda05efcaa6adfb480d93702889"
+       },
+       . . .
      ]
      ```
 
