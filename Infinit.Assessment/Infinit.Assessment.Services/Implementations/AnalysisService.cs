@@ -27,7 +27,7 @@ public class AnalysisService : IAnalysisService
 
         return letterCounts
             .OrderByDescending(kv => kv.Value)
-            .ToDictionary(kv => kv.Key, kv => kv.Value);
+            .ToDictionary();
     }
 }
 
