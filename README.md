@@ -52,6 +52,18 @@ dotnet run --project Infinit.Assessment.Api
 ### Endpoints
 1. **GET `/filtered-files`**
    - Fetches JavaScript/TypeScript files.
+   - Example:
+     ```json
+     {
+       "e": 262122,
+       "t": 211570,
+       "a": 165579,
+       "r": 163042,
+       "n": 140384,
+       "s": 139006,
+       ...
+     }
+     ```
 
 2. **POST `/analyze`**
    - Analyzes letter frequency.
@@ -65,11 +77,21 @@ dotnet run --project Infinit.Assessment.Api
      ```
    - **Response**:
      ```json
-     {
-       "a": 123,
-       "b": 56,
-       "c": 42
-     }
+     [
+	{
+            "path": ".markdown-doctest-setup.js",
+            "type": "blob",
+            "size": 218,
+            "url": "https://api.github.com/repos/lodash/lodash/git/blobs/cdb0bbb5c7f42d4fcf7338db60d5891de11cf78d"
+	},
+	{
+            "path": "dist/lodash.core.js",
+            "type": "blob",
+            "size": 115957,
+            "url": "https://api.github.com/repos/lodash/lodash/git/blobs/be1d567d629fdfda05efcaa6adfb480d93702889"
+	},
+	...
+     ]
      ```
 
 ---
