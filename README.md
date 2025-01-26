@@ -52,10 +52,6 @@ dotnet run --project Infinit.Assessment.Api
 ### Endpoints
 1. **GET `/filtered-files`**
    - Fetches JavaScript/TypeScript files.
-   - Example Response:
-     ```json
-     ["file1.js", "file2.ts"]
-     ```
 
 2. **POST `/analyze`**
    - Analyzes letter frequency.
