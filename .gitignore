@@ -398,3 +398,4 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
+/Infinit.Assessment/Infinit.Assessment.Api/appsettings.Development.json

@@ -1,0 +1,6 @@
+@Infinit.Assessment.Api_HostAddress = http://localhost:5177
+
+GET {{Infinit.Assessment.Api_HostAddress}}/filtered-files/
+Accept: application/json
+
+###
